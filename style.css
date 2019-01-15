@@ -1,0 +1,14 @@
+.image_blog_container {
+    background-color: rgba(0, 0, 0, .8);
+    width: 5.5rem;
+    height: 6.5rem;
+}
+
+.image_blog {
+    position: relative;
+    left: .2rem;
+    background-image:
+        url("assets/images/test_pinguin_small.jpg");
+    width: 5rem;
+    height: 6rem;
+}
