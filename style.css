@@ -1,9 +1,8 @@
 body {
-    background-color: #fafafa;
+    background: linear-gradient(.25turn, #fafafa, #e0e0e0, #e0e0e0, #fafafa);
 }
 
 .main_menus {
-    background: linear-gradient(.25turn, #fafafa, #eaeaea, #eaeaea, #fafafa);
     margin: auto;
     padding: 2em;
     width: 70%;
@@ -13,6 +12,7 @@ body {
 .list_of_entries {
     margin: auto;
     width: 80%;
+    height: 100%
     padding: 1px;
 }
 
@@ -24,6 +24,7 @@ body {
 
 .image_blog_container {
     background-color: rgba(0, 0, 0, .8);
+    box-shadow: -1px -1px 3px 3px black;
     padding: 5px;
     width: 80px;
     height: 70px;
@@ -33,9 +34,11 @@ body {
     position: relative;
     background-image:
         url("assets/images/test_pinguin_small.jpg");
-    margin-left: 1px;
-    width: 78px;
-    height: 70px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin: auto;
+    width: 98%;
+    height: 98%;
 }
 
 .titles {
@@ -64,13 +67,14 @@ body {
 .entry_descripton {
     margin: auto;
     width: 100%;
-    white-space: inital;
     padding: 5px;
+    margin-left: 1em;
 }
 
 .section_separator {
     background-color: black;
+    box-shadow: -1px -3px 6px 6px black;
     margin: auto;
     width: 100%;
-    height: 25px;
+    height: 2em;;
 }
