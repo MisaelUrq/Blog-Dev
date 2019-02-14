@@ -1,3 +1,10 @@
+@media (min-width:320px)  { /* smartphones, iPhone, portrait 480x320 phones */ }
+@media (min-width:481px)  { /* portrait e-readers (Nook/Kindle), smaller tablets @ 600 or @ 640 wide. */ }
+@media (min-width:641px)  { /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ }
+@media (min-width:961px)  { /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+@media (min-width:1025px) { /* big landscape tablets, laptops, and desktops */ }
+@media (min-width:1281px) { /* hi-res laptops and desktops */ }
+
 body {
     background: linear-gradient(.25turn, #fafafa, #e0e0e0, #e0e0e0, #fafafa);
 }
@@ -18,7 +25,7 @@ body {
 
 .blogs {
     margin: auto;
-    padding: 5px;
+    padding: 10px;
     width: 100%;
 }
 
@@ -31,14 +38,17 @@ body {
 }
 
 .image_blog {
-    position: relative;
-    background-image:
-        url("assets/images/test_pinguin_small.jpg");
+    margin: auto;
     background-repeat: no-repeat;
     background-size: 100%;
     margin: auto;
     width: 98%;
     height: 98%;
+}
+
+img {
+    width: 80px;
+    height: 80px;
 }
 
 .titles {
