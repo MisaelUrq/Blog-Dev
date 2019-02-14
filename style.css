@@ -88,3 +88,16 @@ img {
     width: 100%;
     height: 2em;;
 }
+
+a:visited {
+    text-decoration: none;
+    color: #020202;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
