@@ -8,6 +8,7 @@
 
 body {
     background: linear-gradient(.25turn, #fafafa, #e0e0e0, #e0e0e0, #fafafa);
+    font-family: sans-serif, Arial;
 }
 
 .header {
@@ -62,13 +63,30 @@ td {
     width: 30%;
 }
 
-h3 {
+h2 {
     margin-left: 1rem;
+    margin-bottom: -.5rem;
+}
+
+.date {
+    margin-left: 3rem;
+    font-size: 12px;
+    margin-bottom: -1rem;
+}
+
+.title_metadata {
+    font-size: 12.5px;
+    text-align: right;
+    margin-right: 3rem;
+}
+
+h3 {
+    margin-left: 2rem;
 }
 
 .entry {
     margin: auto;
-    width: 50%;
+    width: 60%;
 }
 
 a:visited {
